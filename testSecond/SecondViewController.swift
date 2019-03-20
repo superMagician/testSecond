@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  testSecond
 //
 //  Created by 大姚 on 2019/3/20.
@@ -8,26 +8,15 @@
 
 import UIKit
 
-@objc class FirstViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
-        
-        let button = UIButton()
-        button.frame = CGRect.init(x: 10, y: 60, width: 100, height: 100)
-        button.backgroundColor = UIColor.blue
-        button.addTarget(self, action: #selector(clickButton), for:.touchUpInside)
-        self.view.addSubview(button)
+        self.view.backgroundColor = UIColor.green
         // Do any additional setup after loading the view.
     }
     
-    @objc func clickButton() -> Void {
-        
-        let second = SecondViewController()
-        
-        self.navigationController?.pushViewController(second, animated:true)
-    }
+
     /*
     // MARK: - Navigation
 
