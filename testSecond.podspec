@@ -20,6 +20,5 @@ s.source_files = "testSecond/**/*.swift"
 s.requires_arc = true
 
 s.swift_version = '4.2'
-s.cocoapods_version = '>= 1.5.0'
 
 end
