@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testSecond"
-  s.version      = "4.0"
+  s.version      = "6.0"
   s.summary      = "yytestSecond"
 
   # This description is used to generate tags and improve search results.
@@ -105,8 +105,8 @@ TODO: Add long description of the pod here.
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  s.resources = "testSecond/*.png"
+  #s.resource  = "icon.png"
+  #s.resources = "testSecond/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
