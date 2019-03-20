@@ -92,7 +92,7 @@ TODO: Add long description of the pod here.
   #
 
   s.source_files  = "Classes", "testSecond/*"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
