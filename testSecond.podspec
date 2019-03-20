@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "testSecond"
-s.version      = "8.0"
+s.version      = "8.1"
 s.summary      = "test"
 s.homepage     = "https://github.com/superMagician/testSecond"
 s.license      = "MIT"
