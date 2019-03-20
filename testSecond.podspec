@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "testSecond"
   s.version      = "1.0"
-  s.summary      = "testSecond"
+  s.summary      = "yytestSecond"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
