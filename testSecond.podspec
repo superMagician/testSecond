@@ -17,7 +17,12 @@ s.author       = { "yy" => "yycodet@aliyun.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/superMagician/testSecond.git", :tag => s.version }
 
-s.default_subspec = 'testSecond/**/*.swift'
+s.default_subspec = 'Core'
+
+s.subspec 'Core' do |core|
+core.source_files = 'testSecond/**/*.swift'
+end
+
 
 s.subspec 'Smart' do |smart|
 smart.source_files = 'testSecond/Smart/*.swift'
