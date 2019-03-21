@@ -16,7 +16,17 @@ s.license      = "MIT"
 s.author       = { "yy" => "yycodet@aliyun.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/superMagician/testSecond.git", :tag => s.version }
-s.source_files = "testSecond/**/*.swift"
+
+s.default_subspec = 'testSecond/**/*.swift'
+
+s.subspec 'Smart' do |smart|
+core.source_files = 'testSecond/Smart/*.swift'
+end
+
+s.subspec 'Classes' do |classes|
+core.source_files = 'testSecond/Classes/*.swift'
+end
+
 s.requires_arc = true
 
 s.swift_version = '4.2'
